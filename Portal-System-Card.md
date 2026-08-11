@@ -94,8 +94,8 @@ NVIDIA edge GPUs for on-prem accelerated video ingest; NVIDIA cloud GPUs for mod
 **Functional Restrictions (e.g., Guardrails):** Activity thresholds before record; confidence filtering; processing timeouts; workflow pause controls. <br>
 **Operational Restrictions (e.g., Use case restrictions):** Intended for logistics yard / gate / rail passage inspection on authorized private sites—not a substitute for certified scale measurement, not a sole legal determination of hazmat compliance, and not a law-enforcement product without appropriate customer controls and jurisdiction review. <br>
 
-** Data Ingestion Source:** Real-time camera ingest with near-real-time cloud analytics after each passage. <br>
-** Data Ingestion Preparation Techniques:** Activity-based recording; frame sampling; calibrated multi-view assembly; perception preprocessing for identity and inspection attributes. <br>
+**Data Ingestion Source:** Real-time camera ingest with near-real-time cloud analytics after each passage. <br>
+**Data Ingestion Preparation Techniques:** Activity-based recording; frame sampling; calibrated multi-view assembly; perception preprocessing for identity and inspection attributes. <br>
 
 **Number of GPUs:** Edge NVIDIA GPU(s) on each Portal host sized to camera count; NVIDIA cloud GPUs for model development and cloud inference (sized to deployment).
 
