@@ -94,8 +94,8 @@ Apple iPhone Pro-series (required for iOS); Android devices with ARCore compatib
 **Functional Restrictions (e.g., Guardrails):** Authenticated tenant access; scan status states; confidence gates; discard/retry for failed captures. <br>
 **Operational Restrictions (e.g., Use case restrictions):** Intended for logistics shipment and document capture by authorized workforce users—not for biometric identification, not a certified legal metrology device unless separately certified, and not a substitute for hazmat regulatory determinations without qualified human review. <br>
 
-** Data Ingestion Source:** Near-real-time mobile capture with cloud processing on upload. <br>
-** Data Ingestion Preparation Techniques:** Guided multi-view capture; document normalization; geometric filtering and alignment; identity/document field extraction. <br>
+**Data Ingestion Source:** Near-real-time mobile capture with cloud processing on upload. <br>
+**Data Ingestion Preparation Techniques:** Guided multi-view capture; document normalization; geometric filtering and alignment; identity/document field extraction. <br>
 
 **Number of GPUs:** None on-device. NVIDIA cloud GPUs for model development and all Scan cloud inference (sized to load).
 
