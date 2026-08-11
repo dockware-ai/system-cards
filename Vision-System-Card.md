@@ -77,8 +77,8 @@ NVIDIA CUDA-capable edge GPUs for on-site inference; NVIDIA cloud GPUs for model
 **Functional Restrictions (e.g., Guardrails):** Confidence thresholds; identifier acceptance rules; limits on actuated camera motion; upload policy controls. <br>
 **Operational Restrictions (e.g., Use case restrictions):** Intended for industrial dock/warehouse freight observation—not for public surveillance as a primary purpose, not for biometric identification, and not a safety-rated collision-avoidance system. <br>
 
-** Data Ingestion Source:** Real-time edge sensing from live cameras and depth sensors. <br>
-** Data Ingestion Preparation Techniques:** Motion-aware gating; geometric filtering and association; on-edge inference on relevant frames; calibration-based fusion of 2D and 3D cues. <br>
+**Data Ingestion Source:** Real-time edge sensing from live cameras and depth sensors. <br>
+**Data Ingestion Preparation Techniques:** Motion-aware gating; geometric filtering and association; on-edge inference on relevant frames; calibration-based fusion of 2D and 3D cues. <br>
 
 **Number of GPUs:** Edge NVIDIA GPU(s) on each Vision compute node for on-site inference; NVIDIA cloud GPUs for model development and cloud inference (sized to deployment).
 
